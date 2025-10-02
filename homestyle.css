@@ -1,0 +1,482 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Jost", sans-serif;
+}
+
+.bodygreen {
+  background-image: url("BG\ for\ home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #333;
+}
+
+.containerheader {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #5c3d28;
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Box {
+  width: 1100;
+  height: auto;
+  background-color: #fff5f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.CremaLogo img {
+  justify-content: space-around;
+  width: 10%;
+  height: auto;
+}
+
+.Names {
+  color: #fff5f2;
+  text-align: left;
+  font-size: 17px;
+}
+
+.containertable {
+  display: grid;
+  max-width: 2000px;
+  width: 95%;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 100px);
+  justify-content: center;
+  gap: 10px;
+}
+
+.containertable .item-1 {
+  background-size: cover;
+  background-color: #b5c2a3;
+  grid-row: 1 / 6;
+  grid-column: 1 / 2;
+  color: #fdf9f6;
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 15%;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.item-1-description {
+  color: #fdf9f6;
+  padding-top: 7%;
+  font-size: 18px;
+}
+
+.EndorsementBox {
+  display: flex;
+  background-color: #000000;
+  width: 180px;
+  height: 40px;
+  color: #ac703e;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.item-2 {
+  background-color: #1a1515;
+  grid-row: 1 / 6;
+  grid-column: 2 / 3;
+  color: #fdf9f6;
+  padding-left: 17%;
+  padding-right: 17%;
+  padding-top: 15%;
+  font-size: 40px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.item-2 .add {
+  font-size: 20px;
+  color: #ac703e;
+}
+
+.item-2 .OrderNowLatte {
+  justify-self: center;
+  display: flex;
+  border: 2px solid white;
+  border-color: white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  font-weight: 400;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.OrderNowLatte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  color: white;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  animation: pulse 1.5s infinite;
+}
+
+.OrderNowLatte:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  background-color: #5c3d28;
+  color: white;
+  cursor: pointer;
+}
+
+.item-3 {
+  background-size: 500px;
+  background-color: #1a1515;
+  grid-row: 1 / 6;
+  grid-column: 3 / 4;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-4 {
+  background-size: 450px;
+  background-color: #5c3d28;
+  grid-row: 1 / 6;
+  grid-column: 4 / 5;
+  padding-left: 16%;
+  padding-right: 17%;
+  padding-top: 15%;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fdf9f6;
+}
+
+.item-4-description {
+  color: #fdf9f6;
+  padding-top: 6%;
+  font-size: 18px;
+}
+
+.coloreditforboxes23 {
+  background-color: #1a1515;
+  grid-row: 1 / 6;
+  grid-column: 2 / 4;
+  z-index: 0;
+}
+
+.containertable .item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.containertable .item:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.WhiteCoffeeBody {
+  background-image: url(CoffeeBGOP.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #333;
+  min-height: 100vh;
+}
+
+.ContainerBodyInfo {
+  display: grid;
+  max-width: 2000px;
+  width: 95%;
+  grid-template-rows: repeat(8, 100px);
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.ContainerBodyInfo .rectangle-1 {
+  color: white;
+  grid-row: 1 / 7;
+  grid-column: 2 / 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  border: 1px solid #333;
+  padding: 0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0);
+}
+
+.ContainerBodyInfo .rectangle-1 iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.ContainerBodyInfo .rectangle-2 {
+  background-color: white;
+  grid-row: 1 / 7;
+  grid-column: 4 / 6;
+  padding: 35px;
+  padding-top: 40px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.6s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.EndorsementBoxTwo {
+  display: flex;
+  background-color: #000000;
+  width: 180px;
+  height: 40px;
+  color: white;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.Welcome-ing {
+  color: black;
+  font-size: 35px;
+  line-height: 1px;
+  font-weight: bolder;
+}
+
+.Welcome-ing p {
+  line-height: 1px;
+  margin-bottom: 50px;
+}
+
+.InformationList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.InformationList li {
+  position: relative;
+  padding-left: 70px;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+.InformationList li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  background-image: url(BulletIcon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.smaller {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.bold-line {
+  font-weight: bolder;
+}
+
+.ContainerBodyInfo .rectangle-2:hover {
+  transform: scale(1.05);
+  background-color: #f5f5f5;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  font-size: 130%;
+  .bold-line {
+    color: #b5c2a3;
+    font-weight: bolder;
+  }
+  .EndorsementBoxTwo {
+    background-color: #b5c2a3;
+    color: black;
+  }
+}
+
+footer {
+  background-color: #5c3d28;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+footer .FooterNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+footer .FooterNav a {
+  color: #fdf9f6;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+footer .FooterNav a:hover {
+  color: #ac703e;
+}
+
+footer .FooterNav {
+  margin-bottom: 25px;
+}
+
+footer .CremaLogoTwo {
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  justify-self: center;
+  align-items: center;
+  border-radius: 70px;
+  margin-bottom: 25px;
+}
+
+footer .CremaLogoTwo .BoxCrema img {
+  max-width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+
+hr {
+  width: 95%;
+}
+
+footer .Disclaimer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 620px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .containertable {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(12, minmax(80px, auto));
+  }
+
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4 {
+    font-size: 1.5rem;
+    padding: 8% 4%;
+  }
+
+  .item-2 .OrderNowLatte {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .containertable {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(24, minmax(80px, auto));
+  }
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4 {
+    font-size: 1.2rem;
+    padding: 6% 3%;
+  }
+  .item-2 .OrderNowLatte {
+    font-size: 1rem;
+    width: 90%;
+  }
+  .ContainerBodyInfo {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .rectangle-1,
+  .rectangle-2 {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 480px) {
+  .Names {
+    font-size: 1rem;
+  }
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4 {
+    font-size: 1rem;
+    padding: 5%;
+  }
+  .item-2 .OrderNowLatte {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  .EndorsementBox,
+  .EndorsementBoxTwo {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+  footer .FooterNav ul {
+    gap: 10px;
+  }
+}

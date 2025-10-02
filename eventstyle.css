@@ -1,0 +1,631 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Jost", sans-serif;
+}
+
+/*Header Area*/
+
+.bodygreen {
+  background-image: url("BG\ for\ home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #333;
+}
+
+.containerheader {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #5c3d28;
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Box {
+  width: 1100;
+  height: auto;
+  background-color: #fff5f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.CremaLogo img {
+  justify-content: space-around;
+  width: 10%;
+  height: auto;
+}
+
+.Names {
+  color: #fff5f2;
+  text-align: left;
+  font-size: 17px;
+}
+
+/* Body */
+
+.WhiteCoffeeBody {
+  background-image: url(CoffeeBGOP.png);
+  background-repeat: repeat;
+  background-position: top left;
+  background-size: auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HeaderForWhite {
+  max-width: 1400px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.HeaderForWhite .Label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b5c2a3;
+  min-height: 75px;
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ContainerForEvents {
+  display: grid;
+  grid-template-columns: repeat(3, 467px);
+  grid-auto-rows: auto;
+  gap: 20px;
+  width: 90%;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.ContainerForEvents .ContainerOne {
+  grid-column: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*FirstBox*/
+
+.FirstBoxImage img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.FirstBoxDescriptionBox {
+  width: 100%;
+  height: 50%;
+  padding: 25px;
+  padding-left: 30px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+.FirstBoxDescriptionBox .DateAndPoster,
+.FirstBoxDescriptionBox .Description {
+  font-size: 15px;
+}
+
+.FirstBoxDescriptionBox hr {
+  margin: 25px;
+  width: 95%;
+  justify-self: center;
+}
+
+/*Second Box*/
+
+.SecondBoxImage img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.SecondBoxDescriptionBox {
+  width: 100%;
+  height: 50%;
+  padding: 25px;
+  padding-left: 30px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+.SecondBoxDescriptionBox .DateAndPoster,
+.SecondBoxDescriptionBox .Description {
+  font-size: 15px;
+}
+
+.SecondBoxDescriptionBox hr {
+  margin: 25px;
+  width: 95%;
+  justify-self: center;
+}
+
+/*Third Box*/
+
+.ThirdBoxImage img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.ThirdBoxDescriptionBox {
+  width: 100%;
+  height: 50%;
+  padding: 25px;
+  padding-left: 30px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+.ThirdBoxDescriptionBox .DateAndPoster,
+.ThirdBoxDescriptionBox .Description {
+  font-size: 15px;
+}
+
+.ThirdBoxDescriptionBox hr {
+  margin: 25px;
+  width: 95%;
+  justify-self: center;
+}
+
+/*FourthBox*/
+
+.FourthBoxImage img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.FourthBoxDescriptionBox {
+  width: 100%;
+  height: 50%;
+  padding: 25px;
+  padding-left: 30px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+.FourthBoxDescriptionBox .DateAndPoster,
+.FourthBoxDescriptionBox .Description {
+  font-size: 15px;
+}
+
+.FourthBoxDescriptionBox hr {
+  margin: 25px;
+  width: 95%;
+  justify-self: center;
+}
+
+/*FifthBox*/
+
+.FifthBoxImage img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.FifthBoxDescriptionBox {
+  width: 100%;
+  height: 50%;
+  padding: 25px;
+  padding-left: 30px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+.FifthBoxDescriptionBox .DateAndPoster,
+.FifthBoxDescriptionBox .Description {
+  font-size: 15px;
+}
+
+.FifthBoxDescriptionBox hr {
+  margin: 25px;
+  width: 95%;
+  justify-self: center;
+}
+
+/*shi is after all the Boxes in ContainerOne*/
+
+.BulletedEvent {
+  list-style: none;
+  padding-left: 0;
+}
+
+.BulletedEvent li {
+  position: relative;
+  padding-left: 65px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.BulletedEvent li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  background-image: url(BulletPNG.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ContainerForEvents .ReadDetails {
+  font-weight: bolder;
+}
+
+@keyframes blackToRed {
+  0% {
+    color: black;
+  }
+  50% {
+    color: gray;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.ReadDetails {
+  font-weight: bolder;
+  animation: blackToRed 2s infinite;
+}
+
+/*ContainerOneIsDone*/
+
+.ContainerForEvents .ContainerTwo {
+  margin-left: 20px;
+  background-color: White;
+  grid-column: 3 / 4;
+  grid-row: 1;
+  align-self: start;
+}
+
+.AsideContainerForShiz {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.AsideBox {
+  background-color: #f5f5f5;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.AsideOne .SearchInput {
+  width: 90%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+}
+
+.AsideOne .SearchInput::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+.AsideTwo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 15px;
+  background-color: #f5f5f5;
+  font-size: 25px;
+}
+
+.NAME {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.Tag {
+  background-color: #b5c2a3;
+  color: black;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.AsideThree {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  background-color: #f0f0f0;
+}
+
+.AsideThree .AsideTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #333;
+}
+
+.FullWidthTag {
+  background-color: #b5c2a3;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ContainerTwo .AsideThree ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.AsideFour {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  background-color: #f5f5f5;
+}
+
+.AsideFour .AsideTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.GalleryGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.GalleryGrid img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.GalleryGrid img:hover {
+  transform: scale(1.08);
+  filter: brightness(1.1);
+  cursor: pointer;
+}
+
+.AsideFive img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.15);
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.Tag:hover {
+  background-color: #5c3d28;
+  color: white;
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Categories Hover */
+.FullWidthTag:hover {
+  background-color: #5c3d28;
+  color: white;
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.AsideFive {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.AsideFive .REVIEWS {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.AsideFive img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.AsideFive .FifthBoxDescriptionBox {
+  margin-top: 10px;
+  width: 100%;
+  padding: 20px;
+  background-color: #b5c2a3;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.AsideFive .ReviewTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.AsideFive .ReviewText {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #5c3d28;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+footer .FooterNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+footer .FooterNav a {
+  color: #fdf9f6;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+footer .FooterNav a:hover {
+  color: #ac703e;
+}
+
+footer .FooterNav {
+  margin-bottom: 25px;
+}
+
+footer .CremaLogoTwo {
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  justify-self: center;
+  align-items: center;
+  border-radius: 70px;
+  margin-bottom: 25px;
+}
+
+footer .CremaLogoTwo .BoxCrema img {
+  max-width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+
+hr {
+  width: 95%;
+}
+
+footer .Disclaimer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 620px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .HeaderForWhite .Label {
+    font-size: 26px;
+  }
+  .BulletedEvent li {
+    font-size: 24px;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ContainerForEvents {
+    grid-template-columns: 1fr;
+  }
+  .HeaderForWhite .Label {
+    font-size: 22px;
+  }
+  .Names {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .HeaderForWhite .Label {
+    font-size: 18px;
+    text-align: center;
+  }
+  .Names {
+    font-size: 18px;
+  }
+  .BulletedEvent li {
+    font-size: 16px;
+    padding-left: 40px;
+  }
+}

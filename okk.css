@@ -1,0 +1,608 @@
+.containerheader {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #5c3d28;
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Box {
+  width: 1100;
+  height: auto;
+  background-color: #fff5f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.CremaLogo img {
+  justify-content: space-around;
+  width: 10%;
+  height: auto;
+}
+
+.Names {
+  color: #fff5f2;
+  text-align: left;
+  font-size: 17px;
+}
+
+.BoxCrema {
+  width: auto;
+}
+
+.bg2 {
+  height: 2050px;
+  width: auto;
+  background-image: url("coffee_wallpaper_dense.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.box1 {
+  width: 120px;
+  background-color: #fff5f2;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 18px;
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  font-weight: bold;
+  color: #5c3d28;
+}
+
+.title {
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff5f2;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.title:hover {
+  animation: titleJiggle 0.2s cubic-bezier(0.1, 0.1, 0.1, 0.1) 0s infinite
+    alternate;
+}
+
+@keyframes titleJiggle {
+  0% {
+    transform: rotate(-1deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(3deg) scale(1.1);
+  }
+}
+
+.dots {
+  font-size: 50px;
+  color: #fff5f2;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.divider {
+  width: 1px;
+  height: 60px;
+  background-color: #fff5f2;
+  margin: 20px auto;
+}
+
+.Drinks1 {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  color: #fff5f2;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.Drinks12 {
+  font-family: "Jost", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff5f2;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.Drinks22 {
+  font-family: "Jost", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff5f2;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.Drinks2 {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  color: #fff5f2;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.name {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.name:hover {
+  animation: nameJiggle 0.25s cubic-bezier(0.1, 0.1, 0.1, 0.1) 0s infinite
+    alternate;
+}
+
+@keyframes nameJiggle {
+  0% {
+    transform: rotate(-1deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(3deg) scale(1.1);
+  }
+}
+
+.price {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 80px;
+  color: #fff5f2;
+  flex: 1;
+
+  /* outline: auto; */
+}
+
+.price:hover {
+  animation: priceJiggle 0.2s cubic-bezier(0.1, 0.1, 0.1, 0.1) 0s infinite
+    alternate;
+}
+
+@keyframes priceJiggle {
+  0% {
+    transform: rotate(-1deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(3deg) scale(1.1);
+  }
+}
+
+.drinkimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+  left: 40px;
+}
+
+.menu2 {
+  background-color: #b4c3a1;
+  width: 1300px;
+  height: 500px;
+  margin: 200px auto;
+  position: relative;
+}
+
+.whiteb {
+  margin-top: 40px;
+  width: 500px;
+  height: auto;
+  background-color: #fff5f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  left: 40px;
+}
+
+.title2 {
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #2a2020;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.name2 {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  flex: 1;
+  text-align: right;
+  margin-right: 90px;
+  color: #2a2020;
+}
+
+.price3 {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 90px;
+  color: #2a2020;
+}
+
+.drinkimg2 {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+  right: 20px;
+}
+
+footer {
+  background-color: #5c3d28;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #fff;
+  text-align: center;
+  width: auto;
+}
+
+footer .FooterNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+footer .FooterNav a {
+  color: #fdf9f6;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+footer .FooterNav a:hover {
+  color: #ac703e;
+}
+
+footer .FooterNav {
+  margin-bottom: 25px;
+}
+
+footer .CremaLogoTwo {
+  background-color: white;
+  width: 120px;
+  height: 50px;
+  justify-self: center;
+  align-items: center;
+  border-radius: 70px;
+  margin-bottom: 25px;
+}
+
+footer .CremaLogoTwo .BoxCrema img {
+  max-width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+
+hr {
+  width: 95%;
+}
+
+footer .Disclaimer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 620px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* MAIN MENU */
+
+.menuMain {
+  background-color: #5c3d28;
+  max-width: 1300px;
+  width: 90%;
+  height: auto;
+  margin: 200px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-block: 60px;
+  gap: 30px;
+}
+
+.menuMain-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.menuMain-container > * {
+  width: 40%;
+}
+
+.menuMain-subContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.menu-item-main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.price {
+  flex-grow: 1;
+}
+
+.name {
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+}
+
+/* SNACKS */
+
+.menuPS {
+  background-color: #b4c3a1;
+  width: 1300px;
+  height: auto;
+  margin: 200px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+  padding-block: 60px;
+  gap: 30px;
+}
+
+.titlePS {
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #2a2020;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+.titlePS:hover {
+  animation: titlePSJiggle 0.2s cubic-bezier(0.1, 0.1, 0.1, 0.1) 0s infinite
+    alternate;
+}
+
+@keyframes titlePSJiggle {
+  0% {
+    transform: rotate(-1deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(3deg) scale(1.1);
+  }
+}
+
+.containerPS {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  row-gap: 1.5em;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  width: 90%;
+}
+
+.containerPS > .menuitemPS {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+
+.menuitemPS > img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-inline: 1em;
+}
+
+.menuitemPS > h6 {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  color: #2a2020;
+}
+
+.namePS:hover {
+  animation: namePSJiggle 0.2s cubic-bezier(0.1, 0.1, 0.1, 0.1) 0s infinite
+    alternate;
+}
+
+@keyframes namePSJiggle {
+  0% {
+    transform: rotate(-1deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(3deg) scale(1.1);
+  }
+}
+
+.menuitemPS > .pricePS {
+  text-align: right;
+  margin-inline: 1em;
+  flex: 1;
+}
+
+.pricePS:hover {
+  animation: pricePSJiggle 0.16s cubic-bezier(0.1, 0.1, 0.1, 0.1) 0s infinite
+    alternate;
+}
+
+@keyframes pricePSJiggle {
+  0% {
+    transform: rotate(1deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(-1deg) scale(1.1);
+  }
+}
+
+/* NOTES */
+
+.menuNotes {
+  background-color: white;
+  width: 1100px;
+  height: auto;
+  margin: 200px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: start;
+  padding-block: 60px;
+  padding-inline: 5em;
+  gap: 1.5em;
+}
+
+.titleN {
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #2a2020;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5em;
+}
+
+.titleN:hover {
+  animation: titleNJiggle 0.2s cubic-bezier(0.1, 0.1, 0.1, 0.1) 0s infinite
+    alternate;
+}
+
+@keyframes titleNJiggle {
+  0% {
+    transform: rotate(-1deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(3deg) scale(1.1);
+  }
+}
+
+.note {
+  margin: 0;
+  width: 100%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  padding-block: 0.5em;
+  padding-inline: 1em;
+  background: linear-gradient(to right, #f4f1ef, rgba(255, 255, 255, 0));
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  color: #2a2020;
+}
+
+/* ======================================================= */
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+
+  .menuNotes,
+  .menuPS {
+    flex-direction: column;
+
+    width: 100%;
+    margin: 50px auto;
+    padding-inline: 1em;
+    flex-wrap: wrap;
+  }
+
+  .containerPS {
+    width: 100%;
+    max-width: 600px;
+    font-size: 0.1rem;
+  }
+  .bg2 {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 18px;
+  }
+
+  .menuNotes,
+  .menuPS {
+    flex-direction: column;
+
+    width: 100%;
+    margin: 80px auto;
+    padding-inline: 1em;
+    flex-wrap: wrap;
+  }
+
+  .containerPS {
+    width: 100%;
+    max-width: 600px;
+    font-size: 0.3rem;
+  }
+  .bg2 {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  .menuMain {
+    gap: 60px;
+  }
+
+  .menuMain-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menuMain-subContainer:nth-child(1) {
+    order: 1;
+  }
+
+  .menuMain-subContainer:nth-child(2) {
+    order: 2;
+  }
+
+  .menuMain-subContainer {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .otherTitle,
+  .coffeeTitle {
+    margin-left: 160px;
+  }
+
+  .price {
+    margin-left: 100px;
+  }
+}
